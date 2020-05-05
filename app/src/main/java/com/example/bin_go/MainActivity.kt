@@ -1,5 +1,6 @@
 package com.example.bin_go
 
+import Cuadricula
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     var cb = ctrl_btn()
-
+    var q = Cuadricula()
 
     //Botones B
     fun be1(view: View){
@@ -138,14 +139,18 @@ class MainActivity : AppCompatActivity() {
         cb.oo5 = inv(o5, cb.oo5)
     }
 
-    fun reset(view: View){
+    fun clear(){
         for(bot in b_arr!!){
-            bot.setText("?")
             bot.background = ColorDrawable(Color.WHITE)
         }
 
         cb.setT()
+    }
 
+    fun reset(view: View){
+        clear()
+
+        fill()
     }
 
     fun inv(btn : Button, estado : Boolean) : Boolean{
@@ -156,5 +161,63 @@ class MainActivity : AppCompatActivity() {
             btn.background = ColorDrawable(Color.WHITE)
 
         return estado.not()
+    }
+
+    fun r5(columna : Array<Int>) : ArrayList<Int>? {
+        var col : ArrayList<Int>? = ArrayList()
+        var tarr : ArrayList<Int> = columna.toCollection(ArrayList<Int>())
+
+        for (x in 1..5){
+            var index : Int = (1 until (tarr.size)).random()
+
+            col?.add(tarr[index])
+
+            tarr.removeAt(index)
+        }
+
+        return col
+
+    }
+
+    fun fill(){
+        var bc = r5(q.bl)
+
+        b1.setText("B " + bc!![0].toString())
+        b2.setText("B " + bc!![1].toString())
+        b3.setText("B " + bc!![2].toString())
+        b4.setText("B " + bc!![3].toString())
+        b5.setText("B " + bc!![4].toString())
+
+        var ic = r5(q.il)
+
+        i1.setText("I " + ic!![0].toString())
+        i2.setText("I " + ic!![1].toString())
+        i3.setText("I " + ic!![2].toString())
+        i4.setText("I " + ic!![3].toString())
+        i5.setText("I " + ic!![4].toString())
+
+        var nc = r5(q.nl)
+
+        n1.setText("N " + nc!![0].toString())
+        n2.setText("N " + nc!![1].toString())
+        n3.setText("N " + nc!![2].toString())
+        n4.setText("N " + nc!![3].toString())
+        n5.setText("N " + nc!![4].toString())
+
+        var gc = r5(q.gl)
+
+        g1.setText("G " + gc!![0].toString())
+        g2.setText("G " + gc!![1].toString())
+        g3.setText("G " + gc!![2].toString())
+        g4.setText("G " + gc!![3].toString())
+        g5.setText("G " + gc!![4].toString())
+
+        var oc = r5(q.ol)
+
+        o1.setText("O " + oc!![0].toString())
+        o2.setText("O " + oc!![1].toString())
+        o3.setText("O " + oc!![2].toString())
+        o4.setText("O " + oc!![3].toString())
+        o5.setText("O " + oc!![4].toString())
     }
 }
