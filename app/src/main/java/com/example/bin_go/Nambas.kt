@@ -2,7 +2,7 @@ class Nambas {
     var nums : ArrayList<String>? = arrayListOf()
 
     fun fillML (){
-        for (x in 1..75){
+        for (x in 1..15){
             if(x in 1..15){
                 nums?.add("B $x")
             }
@@ -26,6 +26,7 @@ class Nambas {
     }
 
     fun inic() {
+        nums?.clear()
         fillML()
         nums?.shuffle()
     }

@@ -1,6 +1,7 @@
 package com.example.bin_go
 
 import Cuadricula
+import Nambas
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
@@ -15,6 +16,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     var b_arr : Array<Button>? = (null)
+    var numz : Nambas = Nambas()
+    var n_inx : Int = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +32,9 @@ class MainActivity : AppCompatActivity() {
             o1, o2, o3, o4, o5
 
         )
+
+        numz.inic()
+
     }
 
     var cb = ctrl_btn()
@@ -151,6 +157,12 @@ class MainActivity : AppCompatActivity() {
         clear()
 
         fill()
+
+        numz.inic()
+
+        n_inx = 1
+
+        displei.setText("?")
     }
 
     fun inv(btn : Button, estado : Boolean) : Boolean{
@@ -220,4 +232,15 @@ class MainActivity : AppCompatActivity() {
         o4.setText("O " + oc!![3].toString())
         o5.setText("O " + oc!![4].toString())
     }
+
+    fun getN(view: View){
+        if (n_inx < numz.nums?.size!!){
+            displei.setText(numz.nums!![n_inx])
+            n_inx++
+        }
+        else{
+            displei.setText("END!")
+        }
+    }
+
 }
