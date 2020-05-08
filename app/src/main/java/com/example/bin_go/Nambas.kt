@@ -1,8 +1,8 @@
 class Nambas {
     var nums : ArrayList<String>? = arrayListOf()
 
-    fun fillML (){
-        for (x in 1..15){
+    private fun fillML (){
+        for (x in 1..75){
             if(x in 1..15){
                 nums?.add("B $x")
             }

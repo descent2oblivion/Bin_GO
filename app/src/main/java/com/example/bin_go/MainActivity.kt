@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     var b_arr : Array<Button>? = (null)
     var numz : Nambas = Nambas()
-    var n_inx : Int = 1
+    var n_inx : Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -160,7 +160,7 @@ class MainActivity : AppCompatActivity() {
 
         numz.inic()
 
-        n_inx = 1
+        n_inx = 0
 
         displei.setText("?")
     }
@@ -239,7 +239,7 @@ class MainActivity : AppCompatActivity() {
             n_inx++
         }
         else{
-            displei.setText("END!")
+            displei.setText("Bin GO!")
         }
     }
 
