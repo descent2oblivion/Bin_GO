@@ -12,6 +12,7 @@
         <TextView
                 android:layout_gravity="center_horizontal"
                 android:textSize="65dp"
+                android:layout_marginTop="25dp"
                 android:text="Bin GO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -20,6 +21,7 @@
                 android:id="@+id/tablero"
                 android:columnCount="5"
                 android:rowCount="7"
+                android:useDefaultMargins="true"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
