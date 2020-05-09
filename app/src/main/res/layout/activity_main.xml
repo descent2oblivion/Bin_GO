@@ -264,7 +264,7 @@
                     android:onClick="ne3"
                     android:id="@+id/n3"
                     android:layout_gravity="center_horizontal"
-                    android:text="@string/incognita"
+                    android:text="★"
                     android:layout_column="2"
                     android:layout_row="4"
                     android:background="@color/blanco"
@@ -413,7 +413,7 @@
                 android:onClick="reset"
                 android:background="@color/blanco"
                 android:layout_margin="15dp"
-                android:text="Generar nueva tabla"
+                android:text="@string/gen_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -431,7 +431,7 @@
         <Button
                 android:onClick="getN"
                 android:background="@color/blanco"
-                android:text="Sig. Numero"
+                android:text="@string/next_n"
                 android:layout_margin="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

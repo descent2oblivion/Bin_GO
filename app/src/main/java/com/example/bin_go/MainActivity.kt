@@ -212,7 +212,7 @@ class MainActivity : AppCompatActivity() {
 
         n1.setText("N " + nc!![0].toString())
         n2.setText("N " + nc!![1].toString())
-        n3.setText("N " + nc!![2].toString())
+        n3.setText("★")
         n4.setText("N " + nc!![3].toString())
         n5.setText("N " + nc!![4].toString())
 
