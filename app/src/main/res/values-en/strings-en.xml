@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bin GO</string>
+    <string name="incognita">\?</string>
+    <string name="play">Play!</string>
+    <string name="h2p">How to play?</string>
+    <string name="gen_t">Generate card</string>
+    <string name="next_n">Next number</string>
+</resources>

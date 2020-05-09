@@ -168,7 +168,7 @@ class MainActivity : AppCompatActivity() {
     fun inv(btn : Button, estado : Boolean) : Boolean{
 
         if(estado)
-            btn.background = ColorDrawable(Color.CYAN)
+            btn.background = ColorDrawable(resources.getColor(R.color.colorAccent))
         else
             btn.background = ColorDrawable(Color.WHITE)
 

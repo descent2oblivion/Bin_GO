@@ -9,15 +9,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <TextView
-                android:layout_gravity="center_horizontal"
-                android:textSize="65dp"
-                android:layout_marginTop="25dp"
-                android:text="Bin GO"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+
 
         <GridLayout
+                android:layout_marginTop="40dp"
                 android:id="@+id/tablero"
                 android:columnCount="5"
                 android:rowCount="7"
@@ -28,6 +23,9 @@
 
             <TextView
                     android:text="B"
+                    android:textColor="#0000ff"
+                    android:shadowRadius="30"
+                    android:shadowColor="#000000"
                     android:textSize="55dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
@@ -38,6 +36,9 @@
 
             <TextView
                     android:text="I"
+                    android:textColor="#0000ff"
+                    android:shadowRadius="30"
+                    android:shadowColor="#000000"
                     android:textSize="55dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
@@ -48,6 +49,9 @@
 
             <TextView
                     android:text="N"
+                    android:textColor="#0000ff"
+                    android:shadowRadius="30"
+                    android:shadowColor="#000000"
                     android:textSize="55dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
@@ -58,6 +62,9 @@
 
             <TextView
                     android:text="G"
+                    android:textColor="#0000ff"
+                    android:shadowRadius="30"
+                    android:shadowColor="#000000"
                     android:textSize="55dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
@@ -68,6 +75,9 @@
 
             <TextView
                     android:text="O"
+                    android:textColor="#0000ff"
+                    android:shadowRadius="30"
+                    android:shadowColor="#000000"
                     android:textSize="55dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
@@ -419,6 +429,9 @@
 
         <TextView
                 android:id="@+id/displei"
+                android:textColor="#0000ff"
+                android:shadowRadius="30"
+                android:shadowColor="#000000"
                 android:textSize="85dp"
                 android:layout_gravity="center_horizontal"
                 android:textAlignment="center"

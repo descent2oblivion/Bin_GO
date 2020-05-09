@@ -28,4 +28,12 @@ class inicio : AppCompatActivity() {
             startActivity(i)
         }
     }
+
+    fun howto(view : View){
+        if(act == 0){
+            val i : Intent = Intent(this, MainActivity::class.java)
+            act = 1
+            startActivity(i)
+        }
+    }
 }
