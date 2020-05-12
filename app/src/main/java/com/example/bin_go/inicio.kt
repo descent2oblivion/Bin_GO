@@ -31,7 +31,7 @@ class inicio : AppCompatActivity() {
 
     fun howto(view : View){
         if(act == 0){
-            val i : Intent = Intent(this, MainActivity::class.java)
+            val i : Intent = Intent(this, instructions::class.java)
             act = 1
             startActivity(i)
         }

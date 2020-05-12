@@ -239,7 +239,7 @@ class MainActivity : AppCompatActivity() {
             n_inx++
         }
         else{
-            displei.setText("Bin GO!")
+            displei.setText("${resources.getText(R.string.app_name)}!")
         }
     }
 

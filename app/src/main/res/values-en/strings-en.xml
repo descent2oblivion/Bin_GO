@@ -6,4 +6,29 @@
     <string name="h2p">How to play?</string>
     <string name="gen_t">Generate card</string>
     <string name="next_n">Next number</string>
+
+    <string name="instruct">Instructions</string>
+
+    <string name="s1">Step 1:</string>
+    <string name="i1">  Invite your friends or family! Bin GO is designed to be for 2 or more players.</string>
+
+    <string name="s2">Step 2:</string>
+    <string name="i2">  Each player should have the Bin GO app on their smartphone or tablet.</string>
+
+    <string name="s3">Step 3:</string>
+    <string name="i3">  Press “Generate card” to randomly generate a new Bin GO card.</string>
+
+    <string name="s4">Paso 4:</string>
+    <string name="i4">  Choose one player to call out the number from their device using the “Next number” button.</string>
+
+    <string name="s5">Step 5:</string>
+    <string name="i5">  When the called number is on your card simply tap it to mark it.</string>
+
+    <string name="adit_info">Additional information:</string>
+    <string name="a_info">	For best user experience Bin GO is not automated so you can play by the classic rules or any custom rules you came up with, like:</string>
+
+    <string name="l1">• First row wins</string>
+    <string name="l2">• First column wins</string>
+    <string name="l3">• Full card</string>
+    <string name="l4">You choose!</string>
 </resources>

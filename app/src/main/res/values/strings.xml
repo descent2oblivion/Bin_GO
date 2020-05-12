@@ -5,4 +5,30 @@
     <string name="h2p">¿Como jugar?</string>
     <string name="gen_t">Generar nueva tabla</string>
     <string name="next_n">Sig. numero</string>
+
+    <string name="instruct">Instrucciones</string>
+
+    <string name="s1">Paso 1:</string>
+    <string name="i1">¡Invita a tus amigos o familia! Bin GO esta diseñado para 2 o más jugadores.</string>
+
+    <string name="s2">Paso 2:</string>
+    <string name="i2">Cada jugador deberá de tener la app de Bin GO en su smartphone o Tablet</string>
+
+    <string name="s3">Paso 3:</string>
+    <string name="i3">Presionar el botón de “Generar nueva tabla” para generar aleatoriamente una nueva tabla.</string>
+
+    <string name="s4">Paso 4:</string>
+    <string name="i4">Elegir a un jugador para nombrar los números durante el juego usando el botón de “Sig. Numero”.</string>
+
+    <string name="s5">Paso 5:</string>
+    <string name="i5">Cuando un numero nombrado se encuentre en tu tabla, simplemente presiónalo y quedara marcado.</string>
+
+    <string name="adit_info">Información adicional</string>
+    <string name="a_info">Para una mejor experiencia de usuario, Bin GO no esta automatizado, de tal manera que se pueda jugar con las reglas clásicas o con cualquier regla que diseñes, como:</string>
+
+    <string name="l1">• Primer renglón gana</string>
+    <string name="l2">• Primera columna gana</string>
+    <string name="l3">• Carta completa</string>
+    <string name="l4">¡Tú eliges!</string>
+
 </resources>
