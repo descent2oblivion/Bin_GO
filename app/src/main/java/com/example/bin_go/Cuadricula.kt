@@ -36,7 +36,7 @@ class Cuadricula {
         var tarr : ArrayList<Int> = columna.toCollection(ArrayList<Int>())
 
         for (x in 1..5){
-            var index : Int = (1 until (tarr.size)).random()
+            var index : Int = (0 until (tarr.size)).random()
 
             col?.add(tarr[index])
 

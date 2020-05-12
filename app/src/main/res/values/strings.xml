@@ -3,7 +3,8 @@
     <string name="incognita">\?</string>
     <string name="play">¡Jugar!</string>
     <string name="h2p">¿Como jugar?</string>
-    <string name="gen_t">Generar nueva tabla</string>
+    <string name="gen_t">Generar tabla</string>
+    <string name="clrTable">Reiniciar</string>
     <string name="next_n">Sig. numero</string>
 
     <string name="instruct">Instrucciones</string>

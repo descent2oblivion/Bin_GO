@@ -5,6 +5,7 @@
     <string name="play">Play!</string>
     <string name="h2p">How to play?</string>
     <string name="gen_t">Generate card</string>
+    <string name="clrTable">Reset</string>
     <string name="next_n">Next number</string>
 
     <string name="instruct">Instructions</string>

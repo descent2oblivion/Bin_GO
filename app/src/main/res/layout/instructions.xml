@@ -13,7 +13,7 @@
                 android:textSize="35dp"
                 android:background="@drawable/borde_texto"
                 android:textColor="#0000ff"
-                android:shadowRadius="30"
+                android:shadowRadius="24"
                 android:shadowColor="#000000"
                 android:text="@string/instruct"
                 android:textStyle="bold"
