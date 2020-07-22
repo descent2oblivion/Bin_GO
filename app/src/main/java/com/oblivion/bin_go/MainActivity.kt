@@ -1,16 +1,13 @@
-package com.example.bin_go
+package com.oblivion.bin_go
 
 import Cuadricula
 import Nambas
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.Toast
-import androidx.core.graphics.drawable.toDrawable
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
