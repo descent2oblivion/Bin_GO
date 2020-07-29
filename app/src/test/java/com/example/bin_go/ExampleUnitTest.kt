@@ -1,4 +1,4 @@
-package com.oblivion.bin_go
+package com.example.bin_go
 
 import org.junit.Test
 

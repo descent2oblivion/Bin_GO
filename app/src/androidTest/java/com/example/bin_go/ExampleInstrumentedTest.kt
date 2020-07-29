@@ -1,4 +1,4 @@
-package com.oblivion.bin_go
+package com.example.bin_go
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

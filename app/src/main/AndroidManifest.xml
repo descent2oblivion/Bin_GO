@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.oblivion.bin_go">
+          xmlns:tools="http://schemas.android.com/tools" package="com.example.bin_go">
 
     <application
             android:allowBackup="true"
@@ -10,11 +10,11 @@
             android:supportsRtl="false"
             android:theme="@style/AppTheme">
         <activity
-                android:name="com.oblivion.bin_go.MainActivity"
+                android:name="com.example.bin_go.MainActivity"
                 android:screenOrientation="portrait"
                 tools:ignore="LockedOrientationActivity"/>
-        <activity android:name="com.oblivion.bin_go.instructions"/>
-        <activity android:name="com.oblivion.bin_go.inicio">
+        <activity android:name="com.example.bin_go.instructions"/>
+        <activity android:name="com.example.bin_go.inicio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

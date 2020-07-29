@@ -1,4 +1,4 @@
-package com.oblivion.bin_go
+package com.example.bin_go
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
