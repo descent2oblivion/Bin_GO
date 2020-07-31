@@ -1,4 +1,4 @@
-package com.example.bin_go
+package com.oblivion.bin_go
 
 import android.content.Intent
 import android.os.Bundle

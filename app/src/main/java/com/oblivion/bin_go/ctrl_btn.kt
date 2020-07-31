@@ -1,4 +1,4 @@
-package com.example.bin_go
+package com.oblivion.bin_go
 
 class ctrl_btn {
     var bb1 : Boolean = true
