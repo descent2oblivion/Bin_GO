@@ -1,3 +1,17 @@
+# About
+
+Simple Bingo game for Android
+
+# Languages 
+English and Spanish
+
+# Status
+Published in google play and availble for download here:
+
+https://play.google.com/store/apps/details?id=com.oblivion.bin_go&hl=en_US&gl=US
+
+
+# Screenshots
 
 ![imagen](https://user-images.githubusercontent.com/58195806/127060398-b4de25b8-4751-447c-b325-6ed9ea531316.png)
 
@@ -7,8 +21,4 @@
 
 
 
-Published in google play and availble for download here:
 
-https://play.google.com/store/apps/details?id=com.oblivion.bin_go&hl=en_US&gl=US
-
-Languages English and Spanish
